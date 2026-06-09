@@ -22,6 +22,20 @@ The onboard **ESP32** is programmed using Arduino IDE to allow wireless mobile c
 
 ---
 
+## 🛠️ Tech Stack & Bill of Materials (BOM)
+
+### Software & Firmware (Tech Stack)
+* **Development Environment:** Arduino IDE
+* **Core Libraries:** `BluetoothSerial.h` (ESP32 Native Bluetooth Stack)
+* **Peripherals Control:** Native ESP32 Hardware PWM Engine (`ledc` framework)
+
+### Physical Components (BOM)
+* **Microcontroller:** ESP32 Development Board
+* **Actuators:** High-Torque Johnson Geared Motors
+* **Motor Drivers:** BTS7960 43A Dual H-Bridge Driver
+* **Power & Wiring:** 14 and 12 AWG wires
+
+* 
 ## 🗺️ Project Roadmap
 
 - [x] Assemble physical chassis and balance center of mass
